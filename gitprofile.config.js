@@ -2,66 +2,56 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
-    sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    username: 'sanketdisale871',
+    sortBy: 'stars',
+    limit: 2, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    facebook: '',
-    instagram: '',
-    youtube: '', // example: 'pewdiepie'
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    linkedin: 'sanket-disale-32b195231',
+    Leetcode: 'https://leetcode.com/sanke_tdisale871/',
+    GitHub: 'https://github.com/sanketdisale871',
+    GFG: 'https://auth.geeksforgeeks.org/user/sanketdisale871',
+    instagram: 'sanke_tdisale871',
+    medium: 'sanketdisale871',
+    email: 'sanketdisale871@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1l7knkCQx3s_h7cKsYgOzjuNupODUxkVN/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'C',
+    'C++',
+    'Data Structures',
+    'Algorithms'
+    'Java',
+    'HTML',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
     'MySQL',
-    'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
-    'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'DesiQnA',
+      position: 'SDE Intern',
+      from: 'May 2023',
+      to: 'Sept 2023',
+      companyLink: 'https://www.desiqna.in/',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'GrowR',
+      position: 'Web Intern',
+      from: 'Nov 2022',
+      to: 'Fev 2023',
+      companyLink: 'https://teamgrowr.com/',
     },
   ],
   /* certifications: [
@@ -74,50 +64,58 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Vishawakarma Institute of Technology',
+      degree: 'B.Tech. (IT)',
+      from: '2021',
+      to: '2025',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'New English School',
+      degree: 'HSC',
+      from: '2019',
+      to: '2021',
     },
   ],
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'CollegeShip: Scholarship Portal',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Enhanced government scholarship applicaion processing with OCR technology, reducing manual workloads and speeding up turnaround times.',
+      imageUrl: 'https://github.com/siddhesh-desai/CollegeShip/raw/main/images/CollegeShip-logo.png',
+      link: 'https://github.com/siddhesh-desai/CollegeShip',
     },
     {
-      title: 'Project Name',
+      title: 'Retail Connect: Recommender Systems',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+        'Created a Recommender System using NLP and Information Retrieval to analyze customer behavior via item-based filtering.',
       imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+      link: 'https://github.com/sanketdisale871/RetailConnect',
     },
+    {
+      title: 'Operating System Development (MOS)',
+      description:
+        'Developed a multiprogramming operating system (MOS) from scratch, diving into the core concepts of OS development.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://github.com/sanketdisale871/Operating-System-Development-Project',
+    },
+    {
+      title: 'Automation Pipeline using Jenkins',
+      description:
+        'Implemented a robust deployment pipeline leveraging Jenkins plugins and AWS EC2, seamless testing, building, and deploying stages for efficient CICD.',
+      imageUrl: 'https://via.placeholder.com/250x250',
+      link: 'https://github.com/sanketdisale871/Jenkins-CI-CD-pipeline',
+    },
+    {
+      title: 'Work-Connect: Connecting workers to clients',
+      description:
+        'Created a client-centric platform for request posting, quote selection, and feedback.',
+      imageUrl: 'https://github.com/siddhesh-desai/Worker-Connect',
+      link: 'https://github.com/siddhesh-desai/Worker-Connect',
+    }
   ],
-  // Display blog posts from your medium or dev account. (Optional)
-  blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many posts to display. Max is 10.
-  },
-  googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  },
-  // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
+
   themeConfig: {
     defaultTheme: 'wireframe',
 
@@ -180,7 +178,7 @@ const config = {
 
   // Optional Footer. Supports plain text or HTML.
   footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
+      class="text-primary" href="https://github.com/sanketdisale871"
       target="_blank"
       rel="noreferrer"
     >GitProfile</a> and ❤️`,
