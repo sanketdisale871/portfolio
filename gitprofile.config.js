@@ -58,14 +58,14 @@ const config = {
       companyLink: 'https://teamgrowr.com/',
     },
   ],
-  /* certifications: [
+   certifications: [
     {
       name: 'Lorem ipsum',
       body: 'Lorem ipsum dolor sit amet',
       year: 'March 2022',
       link: 'https://example.com'
     },
-  ], */
+  ], 
   education: [
     {
       institution: 'Vishawakarma Institute of Technology',
