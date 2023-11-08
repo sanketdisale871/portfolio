@@ -117,7 +117,6 @@ const config = {
         'Created a client-centric platform for request posting, quote selection, and feedback.',
       imageUrl: 'https://drive.google.com/file/d/1TmgtAoIBEe_wtKxXoZgzSRRRi9RDPbFy/view?usp=sharing',
       link: 'https://github.com/siddhesh-desai/Worker-Connect',
-    }
     },
     {
       title: 'WATER QUALITY PREDICTION |',
