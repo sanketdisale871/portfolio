@@ -4,7 +4,7 @@ const config = {
   github: {
     username: 'sanketdisale871',
     sortBy: 'stars',
-    limit: 2, // How many projects to display.
+    limit: 0, // How many projects to display.
     exclude: {
       forks: false, // Forked projects will not be displayed if set to true.
       projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
@@ -37,6 +37,10 @@ const config = {
     'Git',
     'Docker',
     'CSS',
+    'Bootstrap',
+    'ExpressJS',
+    'Bash',
+    'AWS'
   ],
   experiences: [
     {
@@ -83,36 +87,44 @@ const config = {
       title: 'CollegeShip: Scholarship Portal',
       description:
         'Enhanced government scholarship applicaion processing with OCR technology, reducing manual workloads and speeding up turnaround times.',
-      imageUrl: 'https://github.com/siddhesh-desai/CollegeShip/raw/main/images/CollegeShip-logo.png',
+      imageUrl: 'https://drive.google.com/file/d/1TmgtAoIBEe_wtKxXoZgzSRRRi9RDPbFy/view?usp=sharing',
       link: 'https://github.com/siddhesh-desai/CollegeShip',
     },
     {
       title: 'Retail Connect: Recommender Systems',
       description:
         'Created a Recommender System using NLP and Information Retrieval to analyze customer behavior via item-based filtering.',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: 'https://drive.google.com/file/d/1TmgtAoIBEe_wtKxXoZgzSRRRi9RDPbFy/view?usp=sharing',
       link: 'https://github.com/sanketdisale871/RetailConnect',
     },
     {
       title: 'Operating System Development (MOS)',
       description:
         'Developed a multiprogramming operating system (MOS) from scratch, diving into the core concepts of OS development.',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: 'https://drive.google.com/file/d/1TmgtAoIBEe_wtKxXoZgzSRRRi9RDPbFy/view?usp=sharing',
       link: 'https://github.com/sanketdisale871/Operating-System-Development-Project',
     },
     {
       title: 'Automation Pipeline using Jenkins',
       description:
         'Implemented a robust deployment pipeline leveraging Jenkins plugins and AWS EC2, seamless testing, building, and deploying stages for efficient CICD.',
-      imageUrl: 'https://via.placeholder.com/250x250',
+      imageUrl: 'https://drive.google.com/file/d/1TmgtAoIBEe_wtKxXoZgzSRRRi9RDPbFy/view?usp=sharing',
       link: 'https://github.com/sanketdisale871/Jenkins-CI-CD-pipeline',
     },
     {
       title: 'Work-Connect: Connecting workers to clients',
       description:
         'Created a client-centric platform for request posting, quote selection, and feedback.',
-      imageUrl: 'https://github.com/siddhesh-desai/Worker-Connect',
+      imageUrl: 'https://drive.google.com/file/d/1TmgtAoIBEe_wtKxXoZgzSRRRi9RDPbFy/view?usp=sharing',
       link: 'https://github.com/siddhesh-desai/Worker-Connect',
+    }
+    },
+    {
+      title: 'WATER QUALITY PREDICTION |',
+      description:
+        'Project aimed to address a critical issue affecting human health,',
+      imageUrl: 'https://drive.google.com/file/d/1TmgtAoIBEe_wtKxXoZgzSRRRi9RDPbFy/view?usp=sharing',
+      link: 'https://github.com/sanketdisale871/WaterQualityPrediction',
     }
   ],
 
