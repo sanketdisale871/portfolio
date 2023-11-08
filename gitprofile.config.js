@@ -1,15 +1,15 @@
 // gitprofile.config.js
 
 const config = {
-  github: {
-    username: 'sanketdisale871',
-    sortBy: 'stars',
-    limit: 0, // How many projects to display.
-    exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
-    },
-  },
+  // github: {
+  //   username: 'sanketdisale871',
+  //   sortBy: 'stars',
+  //   limit: 1, // How many projects to display.
+  //   exclude: {
+  //     forks: false, // Forked projects will not be displayed if set to true.
+  //     projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+  //   },
+  // },
   social: {
     linkedin: 'sanket-disale-32b195231',
     Leetcode: 'https://leetcode.com/sanke_tdisale871/',
