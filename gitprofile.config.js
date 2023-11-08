@@ -27,7 +27,7 @@ const config = {
     'C',
     'C++',
     'Data Structures',
-    'Algorithms'
+    'Algorithms',
     'Java',
     'HTML',
     'JavaScript',
